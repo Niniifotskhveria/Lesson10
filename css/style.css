@@ -1,0 +1,65 @@
+/* header styles */
+
+.container{
+    background-image: url(../image/image1.jpg);
+    height: 324px;
+    background-position: ccenter;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 98px;
+    padding: 30px 139px 275px 0;
+}
+header ul{
+    display: flex;
+    font-size: 12px;
+}
+header a {
+    color: white;
+}
+header ul li {
+    margin-left: 50px;
+}
+
+header ul li:first-child {
+    margin: 0;
+}
+.logo{
+    margin-left: 139px;
+}
+.prgph{
+    position: absolute;
+   font-size: 42px;
+   color: white;
+   margin: 350px 981px 119px 139px;
+   width: 246px;
+   font-family: 'Poppins', sans-serif;
+}
+.test{
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 19px;
+    background-color: white;
+    margin-left: 40px;
+    margin: 430px 1050px 85px 195px;
+
+}
+.prgph1{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    margin: 430px 1100px 85px 139px;
+}
+.prgph2{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    margin: 430px 1000px 85px 212px;
+}
+/* section1 styles */
